@@ -25,7 +25,7 @@ function calculate(WeightKg,HeightCm)
       bmiCatagoty="Overweight";
       helthRisk="Enhanced risk";
       bmiRange="25-29.9";
-     // count++;
+      count++;
    }
    else if(ans>=30 && ans<=34.9 )
    {
@@ -46,7 +46,7 @@ function calculate(WeightKg,HeightCm)
       helthRisk="Very high risk";
       bmiRange="40 and above";
    }
-   
+  console.log("Total number of overweight people is: "+ count); 
   console.log(bmiCatagoty+" "+bmiRange+" "+helthRisk);
   return ans;
 }
